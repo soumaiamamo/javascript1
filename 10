@@ -1,0 +1,5 @@
+var newArray = ["hamster" , 24 , true];
+console.log("yes we ca =n store multiple types in an array");
+
+console.log(6/0 === 10/0);
+true
