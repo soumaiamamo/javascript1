@@ -1,0 +1,31 @@
+var s = 24;
+var m = "hello world !";
+var o = false;
+var e = [3 , "december"];
+
+console.log("the value of my variable s is:" + s);
+console.log("the value of my variable m is:" + m);
+console.log("the value of my variable o is:" + o);
+console.log("the value of my variable e is:" + e);
+
+console.log("the value of s variable is number");
+console.log("the value of m variable is string");
+console.log("the value of o variable is boolean");
+console.log("the value of e variable is object");
+
+
+var typeS = typeof (s);
+var typeM = typeof(m);
+var typeO= typeof(o);
+var typeE= typeof(e);
+
+
+if ((typeS == typeM) || (typeS == typeO) || (typeS == typeE)){
+    console.log("s has same type");
+}else if ((typeM == typeO ) || (typeM == typeE)){
+    console.log("m has same type");
+}else if ((typeO == typeE)){
+    console.log("o and e have the same type");
+}else{
+    console.log("no similar types")
+}
